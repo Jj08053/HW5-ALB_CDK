@@ -7,7 +7,7 @@ from alb_cdk.alb_cdk_stack import AlbCdkStack
 
 
 app = cdk.App()
-AlbCdkStack(app, "AlbCdkStack",
+AlbCdkStack(app, "WebserversDev",
     # If you don't specify 'env', this stack will be environment-agnostic.
     # Account/Region-dependent features and context lookups will not work,
     # but a single synthesized template can be deployed anywhere.
